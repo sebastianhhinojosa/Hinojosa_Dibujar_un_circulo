@@ -7,8 +7,8 @@ import java.awt.*;
 public class Main {
     public static void main(String[] args) {
 
-        CirculoDibujable circulo = new CirculoDibujable(100, 50, 50);
-        CuadradoDibujable cuadrado = new CuadradoDibujable(100, 200, 50);
+        CirculoDibujable circulo = new CirculoDibujable(100, 200, 120);
+        CuadradoDibujable cuadrado = new CuadradoDibujable(100, 50, 120);
 
         System.out.println("El área del círculo es: " + circulo.getArea());
         System.out.println("El perímetro del círculo es: " + circulo.getPerimetro());
